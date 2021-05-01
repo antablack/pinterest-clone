@@ -1,8 +1,10 @@
 package com.example.pinterest_final
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
 
@@ -16,6 +18,11 @@ class MainActivity : AppCompatActivity() {
         val textviewPrivacy : TextView = findViewById(R.id.textview_privacy)
         textviewPrivacy.setText(Html.fromHtml("By continuing, you agree to Pinterest's <b>Terms of Service</b> and <b>Privacy Policy</b>"))
 
+        val btnLogin: Button = findViewById(R.id.btn_login)
+        btnLogin.setOnClickListener {
+            val intent = Intent(this, SignUp::class.java)
+            startActivity(intent)
+        }
 
     }
 }

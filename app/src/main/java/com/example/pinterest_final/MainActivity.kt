@@ -1,14 +1,17 @@
 package com.example.pinterest_final
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,9 +27,16 @@ class MainActivity : AppCompatActivity() {
 
         val btnLogin: Button = findViewById(R.id.btn_login)
         btnLogin.setOnClickListener {
-            val intent = Intent(this, SignUp::class.java)
-            startActivity(intent)
-
+            AlertDialog.Builder(this)
+                .setTitle("")
+                .setMessage(getString(R.string.dialog_message))
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setPositiveButton(R.string.ok,
+                    DialogInterface.OnClickListener { dialog, whichButton ->
+                        val intent = Intent(this, SignUp::class.java)
+                        startActivity(intent)
+                    })
+                .setNegativeButton(R.string.cancel, null).show()
         }
 
         val btnFacebook: Button = findViewById(R.id.btn_facebook)

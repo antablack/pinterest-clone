@@ -26,4 +26,7 @@
     <string name="lbl_home_office">Home office</string>
     <string name="lbl_kitchen">Kitchen</string>
     <string name="lbl_you_selected">You selected</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_message">Do you want sign up first?</string>
 </resources>

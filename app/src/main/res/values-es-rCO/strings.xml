@@ -27,4 +27,6 @@
     <string name="lbl_outdoor_spaces">Espacios al aire libre</string>
     <string name="lbl_kitchen">Cocinas</string>
     <string name="lbl_you_selected">Seleccionaste</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_message">¿Quieres registrarte primero?</string>
 </resources>

@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         //toolbar.setNavigationIcon(resources.getDrawable(R.drawable.ic_baseline_arrow_back_ios_24))
         val textviewPrivacy : TextView = findViewById(R.id.textview_privacy)
-        textviewPrivacy.setText(Html.fromHtml("By continuing, you agree to Pinterest's <b>Terms of Service</b> and <b>Privacy Policy</b>"))
+        val terms = getString(R.string.lbl_terms);
+        textviewPrivacy.setText(Html.fromHtml(terms))
 
         val btnLogin: Button = findViewById(R.id.btn_login)
         btnLogin.setOnClickListener {

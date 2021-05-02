@@ -32,7 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="64dp"
-                    android:text="Sign up"
+                    android:text="@string/lbl_signup"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="What's your email?"
+                android:text="@string/lbl_whats_your_email"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -80,7 +80,7 @@
                     android:layout_marginTop="10dp"
                     android:background="@null"
                     android:gravity="start"
-                    android:hint="Enter your email"
+                    android:hint="@string/lbl_enter_your_email"
                     android:inputType="textEmailAddress"
                     android:textCursorDrawable="@drawable/cursor_color"
                     android:textSize="20sp"
@@ -94,7 +94,7 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginBottom="5dp"
                 android:gravity="end"
-                android:text="1 of 3"
+                android:text="@string/lbl_progress_description"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -113,14 +113,14 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_next"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="#cd2d3d"
                 android:stateListAnimator="@null"
-                android:text="Next"
+                android:text="@string/btn_next"
                 android:textAllCaps="false"
                 android:textStyle="bold"
-                app:cornerRadius="20dp" />
+                app:cornerRadius="30dp" />
 
         </LinearLayout>
 

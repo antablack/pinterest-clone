@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pinterest_final</string>
+    <string name="btn_facebook">Continuar con Facebook</string>
+    <string name="btn_google">Continuar con Google</string>
+    <string name="btn_apple">Continuar con Apple</string>
+    <string name="lbl_or">O</string>
+    <string name="lbl_email_address">Correo electronico</string>
+    <string name="lbl_enter_email">Escribe tu email</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="lbl_enter_password">Escribe tu contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="lbl_terms">" <![CDATA[Al continuar, acepta las <b> Condiciones de servicio </b> y la <b> Política de privacidad </b> de Pinterest.]]>"</string>
+    <string name="lbl_forgotten_password">¿Olvidaste tu contraseña?</string>
+    <string name="lbl_icloud">Usar iCloud Keychain</string>
+    <string name="lbl_signup">Registrarme</string>
+    <string name="lbl_whats_your_email">¿Cuál es tu correo electrónico?</string>
+    <string name="lbl_enter_your_email">Escribe tu correo electrónico</string>
+    <string name="lbl_progress_description">1 de 3</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="lbl_dashboard_title1">¡Construyamos tu nueva board!</string>
+    <string name="lbl_dashboard_title2">¿Qué incluirás?</string>
+    <string name="lbl_bathroom">Baños</string>
+    <string name="lbl_bedroom">Habitaciones</string>
+    <string name="lbl_living_room">Salas de estar</string>
+    <string name="lbl_home_office">Oficinas en casa</string>
+    <string name="lbl_outdoor_spaces">Espacios al aire libre</string>
+    <string name="lbl_kitchen">Cocinas</string>
+</resources>

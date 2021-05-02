@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Pinterest_final</string>
+    <string name="btn_facebook">Continue with Facebook</string>
+    <string name="btn_google">Continue with Google</string>
+    <string name="btn_apple">Continue with Apple</string>
+    <string name="lbl_or">OR</string>
+    <string name="lbl_email_address">Email address</string>
+    <string name="lbl_enter_email">Enter your email</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_enter_password">Enter your password</string>
+    <string name="btn_login">Log in</string>
+    <string name="lbl_terms"><![CDATA[By continuing, your agree to Pinterest\'s <b>Terms of Service </b> and <b> Privacy Policy </b>]]></string>
+    <string name="lbl_forgotten_password">Forgotten your Password?</string>
+    <string name="lbl_icloud">Use iCloud Keychain</string>
+    <string name="lbl_signup">Sign up</string>
+    <string name="lbl_whats_your_email">What\'s your email?</string>
+    <string name="lbl_enter_your_email">Enter your email</string>
+    <string name="lbl_progress_description">1 of 3</string>
+    <string name="btn_next">Next</string>
+    <string name="lbl_dashboard_title1">Let\'s build your new board!</string>
+    <string name="lbl_dashboard_title2">What will it include?</string>
+    <string name="lbl_bathroom">Bathroom</string>
+    <string name="lbl_bedroom">Bedroom</string>
+    <string name="lbl_living_room">Living room</string>
+    <string name="lbl_outdoor_spaces">Outdoor spaces</string>
+    <string name="lbl_home_office">Home office</string>
+    <string name="lbl_kitchen">Kitchen</string>
 </resources>

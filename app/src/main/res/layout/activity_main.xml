@@ -111,7 +111,8 @@
             android:hint="Enter your email"
             android:inputType="textEmailAddress"
             android:textCursorDrawable="@drawable/cursor_color"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
@@ -128,7 +129,8 @@
             android:hint="Enter your password"
             android:inputType="textPassword"
             android:textCursorDrawable="@drawable/cursor_color"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_login"
